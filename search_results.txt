@@ -1,0 +1,11 @@
+TXT files:
+./docs/readme.txt
+./report.txt
+./search_results.txt
+LOG files:
+./logs/app.log
+ERROR search:
+logs/app.log:error: connection failed
+which commands:
+/usr/bin/grep
+/usr/bin/tar

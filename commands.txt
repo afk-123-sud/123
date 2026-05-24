@@ -1,0 +1,23 @@
+1  mkdir -p linux_practice_2/{docs,logs,configs,backup,links}
+2  cd linux_practice_2
+3  echo "Linux practice file" > docs/readme.txt
+4  echo "error: connection failed" > logs/app.log
+5  echo "warning: disk almost full" >> logs/app.log
+6  echo "PORT=8080" > configs/app.conf
+7  echo "DEBUG=false" >> configs/app.conf
+8  { whoami; echo "----"; id; echo "----"; groups; echo "----"; who; } > report.txt
+9  find . -name "*.txt"
+10 find . -name "*.log"
+11 grep -r "error" docs logs configs
+12 which grep
+13 which tar
+14 which zip 2>/dev/null
+15 chmod 644 docs/readme.txt
+16 chmod 600 configs/app.conf
+17 chmod 755 logs
+18 ln -s ../docs/readme.txt links/readme_link.txt
+19 ln configs/app.conf links/app_conf_hardlink
+20 tar -czf backup/docs_backup.tar.gz docs
+21 tar -czf backup/configs_backup.tar.gz configs
+22 gzip -k logs/app.log
+23 zcat logs/app.log.gz
