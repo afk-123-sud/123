@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макс — Резюме</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .resume {
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .header {
+            background: #1e2937;
+            color: white;
+            padding: 35px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name {
+            font-size: 42px;
+            font-weight: 700;
+            color: #f97316;
+        }
+
+        .contact {
+            text-align: right;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .summary {
+            padding: 30px 50px;
+            font-size: 15.5px;
+            line-height: 1.65;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            padding: 40px 50px;
+            gap: 50px;
+        }
+
+        h2 {
+            color: #f97316;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #f97316;
+            padding-bottom: 8px;
+            display: inline-block;
+        }
+
+        .job {
+            margin-bottom: 35px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .company {
+            color: #334155;
+            font-weight: 500;
+        }
+
+        .job ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        .job li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .highlights ul,
+        .hobbies ul {
+            list-style: disc;
+            padding-left: 22px;
+        }
+
+        .highlights li,
+        .hobbies li {
+            margin-bottom: 9px;
+            line-height: 1.5;
+        }
+
+        .education {
+            margin-top: 35px;
+        }
+
+        @media (max-width: 900px) {
+            .main { grid-template-columns: 1fr; }
+            .header { flex-direction: column; text-align: center; gap: 15px; }
+            .contact { text-align: center; }
+        }
+    </style>
+</head>
+<body>
+<div class="resume">
+    <div class="header">
+        <div>
+            <div class="name">Макс</div>
+        </div>
+        <div class="contact">
+            +380 (95) 161-13-54<br>
+            maksimvol@gmail.com<br>
+            Kyiv, Ukraine
+        </div>
+    </div>
+
+    <div class="summary">
+        розробник з досвідом створення сучасних веб-додатків.
+        Маю сильні навички у розробці інтерфейсів, роботі з React та TypeScript.
+        Здатний швидко вчитися, вирішувати проблеми та створювати зручні користувацькі рішення.
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <h2>Досвід роботи</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title"> Developer</div>
+                        <div class="company">Пет-проєкти</div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Розробка сучасних лендінгів та веб-додатків на React та Next.js</li>
+                    <li>Створення адаптивних та інтерактивних інтерфейсів</li>
+                    <li>Оптимізація швидкості завантаження</li>
+                    <li>Робота з Figma дизайнами для піксель-перфект реалізації</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Junior Developer</div>
+                        <div class="company">IT-компанія (стажування)</div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Підтримка та розробка фронтенд-частини проєктів</li>
+                    <li>Інтеграція з backend API</li>
+                    <li>Тестування та виправлення помилок</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <h2> / Навички</h2>
+            <div class="highlights">
+                <ul>
+                    <li>React / Next.js</li>
+                    <li>TypeScript</li>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Git & GitHub</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+
+            <div class="education">
+                <h2>Освіта</h2>
+                Київський Інститут 2026
+            </div>
+
+            <div class="hobbies">
+                <h2>Додатково</h2>
+                <ul>
+                    <li>Самостійне вивчення сучасних технологій</li>
+                    <li>Участь у пет-проєктах</li>
+                    <li>Готовий до релокації та віддаленої роботи</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
