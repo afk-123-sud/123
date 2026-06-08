@@ -1,0 +1,50 @@
+task2/:
+total 4
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 .
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:21 ..
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 backup
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 output.txt
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 project
+
+task2/backup:
+total 0
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 .
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 ..
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 CHANGELOG.md
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 INSTALL.md
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 README_backup.md
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 logs
+
+task2/backup/logs:
+total 0
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 .
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 ..
+
+task2/project:
+total 0
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 .
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 ..
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 docs
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 src
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 tests
+
+task2/project/docs:
+total 0
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 .
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 ..
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 CHANGELOG.md
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 INSTALL.md
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 README.md
+
+task2/project/src:
+total 0
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 .
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 ..
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 config.py
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 main.py
+-rw-r--r-- 1 ASUS 197121 0 Jun  8 19:22 utils.py
+
+task2/project/tests:
+total 0
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 .
+drwxr-xr-x 1 ASUS 197121 0 Jun  8 19:22 ..

@@ -1,0 +1,33 @@
+/d/linux/linux
+===== ROOT / =====
+total 5.5M
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 .
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 ..
+-rw-r--r-- 1 ASUS 197121  19K Dec  4  2024 LICENSE.txt
+-rw-r--r-- 1 ASUS 197121 268K Dec  4  2024 ReleaseNotes.html
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 bin
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 cmd
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 dev
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 etc
+-rwxr-xr-x 1 ASUS 197121 136K Dec  4  2024 git-bash.exe
+-rwxr-xr-x 1 ASUS 197121 136K Dec  4  2024 git-cmd.exe
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 mingw64
+dr-xr-xr-x 8 ASUS 197121    0 Jun  8 19:27 proc
+drwxr-xr-x 1 ASUS 197121    0 Jun  8 19:23 tmp
+-rw-r--r-- 1 ASUS 197121 1.3M Feb 12  2025 unins001.dat
+-rwxr-xr-x 1 ASUS 197121 3.3M Feb 12  2025 unins001.exe
+-rw-r--r-- 1 ASUS 197121  24K Feb 12  2025 unins001.msg
+drwxr-xr-x 1 ASUS 197121    0 Feb 12  2025 usr
+===== /etc LAST 10 FILES =====
+total 115
+lrwxrwxrwx 1 ASUS 197121    12 Feb 12  2025 mtab -> /proc/mounts
+-rw-r--r-- 1 ASUS 197121   470 Feb 12  2025 gitconfig
+-rw-r--r-- 1 ASUS 197121   366 Feb 12  2025 install-options.txt
+drwxr-xr-x 1 ASUS 197121     0 Feb 12  2025 profile.d
+drwxr-xr-x 1 ASUS 197121     0 Feb 12  2025 ssh
+drwxr-xr-x 1 ASUS 197121     0 Feb 12  2025 pki
+drwxr-xr-x 1 ASUS 197121     0 Feb 12  2025 pkcs11
+-rw-r--r-- 1 ASUS 197121  3886 Dec  4  2024 package-versions.txt
+-rw-r--r-- 1 ASUS 197121  4351 Dec  4  2024 DIR_COLORS
+===== CD TEST =====
+/d/linux/linux
